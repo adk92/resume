@@ -1,0 +1,111 @@
+\documentclass{moderncv}
+
+\firstname{Khalid}
+\familyname{Ahmed}
+
+% Define \cvdoublecolumn, which sets its arguments in two columns without any labels
+\moderncvtheme{casual}
+
+\newcommand{\cvdoublecolumn}[2]{%
+	\cvitem[0.75em]{}{%
+		\begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+		\hfill%
+		\begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+	}%
+}
+
+% usage: \cvreference{name}{address line 1}{address line 2}{address line 3}{address line 4}{e-mail address}{phone number}
+% Everything but the name is optional
+% If \addresssymbol, \emailsymbol or \phonesymbol are specified, they will be used.
+% (Per default, \addresssymbol isn't specified, the other two are specified.)
+% If you don't like the symbols, remove them from the following code, including the tilde ~ (space).
+
+\newcommand{\cvreference}[7]{%
+	\textbf{#1}\newline% Name
+	\ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+	\ifthenelse{\equal{#3}{}}{}{#3\newline}%
+	\ifthenelse{\equal{#4}{}}{}{#4\newline}%
+	\ifthenelse{\equal{#5}{}}{}{#5\newline}%
+	\ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+	\ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+
+\begin{document} 
+	\maketitle
+	
+	\section{References}
+	
+%	\subsection{set in separate rows}
+%	
+%	\cvdoublecolumn{\cvreference{Nicolai Reshetikhin}
+%		{Department of Mathematics}
+%		{University of California}
+%		{Berkeley, CA 94720-3840}
+%		{}
+%		{}
+%		{510-643-6234}%
+%	}
+%	{\cvreference{Mikhail Khovanov}
+%		{Department of Mathematics}
+%		{Columbia University}
+%		{990 Broadway}
+%		{New York, NY 10027}
+%		{}
+%		{212-854-4186}%
+%	}
+%	
+%	\cvdoublecolumn{\cvreference{Roman Bezrukavnikov}
+%		{Department of Mathematics}
+%		 {Massachusetts Institute of Technology}
+%		 {77 Massachusetts Avenue}
+%		 {Cambridge, MA 02139}
+%		 {bezrukav@math.mit.edu}
+%		 {617-253-2684}
+%		}
+%		{\cvreference{Tom Braden}
+%			{Department of Mathematics}
+%			{University of Massachusetts}
+%			{Amherst, MA 94720-3840}
+%			{}
+%			{braden@math.umass.edu}
+%			{413-545-1732}
+%		}
+
+		\cvreference{Thomas Heyn}
+		{Bright Band Department}
+		{Fraunhofer IIS}
+		{Am Wolfsmantel 33,}
+		{91058 Erlangen}
+		{thomas.heyn@iis.fraunhofer.de}
+		{+49 9131 776-6311}
+		\\[1em]
+		\cvreference{Dr.Khaled Hassan}
+			{Bright Band Department}
+			{Fraunhofer IIS}
+			{ Am Wolfsmantel 33,}
+			{91058 Erlangen}
+			{khaled.hassan@iis.fraunhofer.de}
+			{+49 9131 776-6359}
+			\\[1em]
+		\cvreference{Frank Burkhardt}
+			{Bright Band Department}
+			{Fraunhofer IIS}
+			{ Am Wolfsmantel 33,}
+			{91058 Erlangen}
+			{frank.burkhardt@iis.fraunhofer.de}
+			{+49 9131 776 6312}
+			\\[1em]	
+		\cvreference{Dr.-Ing.J\"{o}rg Robert}
+		{Department Elektrotechnik-Elektronik-Informationstechnik}
+		{Friedrich-Alexander-Universit\"{a}t Erlangen}
+		{Am Wolfsmantel 33,}
+		{91058 Erlangen-Tennenlohe}
+		{joerg.robert@fau.de}
+		{+49 9131 85-25373}
+		
+		
+		
+		
+		
+		
+	\end{document}
