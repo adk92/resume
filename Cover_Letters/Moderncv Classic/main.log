@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.4)  11 OCT 2018 10:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.4)  3 DEC 2018 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,18 +1095,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17624 strings out of 493304
- 290573 string characters out of 6139872
+ 17626 strings out of 493304
+ 290595 string characters out of 6139872
  380291 words of memory out of 5000000
  20819 multiletter control sequences out of 15000+600000
- 38627 words of font info for 52 fonts, out of 8000000 for 9000
+ 38728 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,11n,45p,10381b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (1 page, 80961 bytes).
+Output written on main.pdf (1 page, 81144 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
